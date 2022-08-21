@@ -1,0 +1,54 @@
+.inputWrapper{
+
+}
+
+.input{
+    width: 240px;
+    border: none;
+    border-bottom: solid 1px #727272;
+    background: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.input:focus{
+    border-color: #941313;
+}
+
+.inputGroup{
+    width: 260px;
+    height: 220px;
+    margin: 100px auto 0 auto;
+    background: #ffffff;
+    padding: 25px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(199, 105, 105, 0.09);
+}
+
+.submit{
+    font-size: 23px;
+    line-height: 50px;
+    font-weight: 500;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background: #941313;
+    border-radius: 4px;
+    color: #afafaf;
+    cursor: pointer;
+    user-select: none;
+    margin: 40px auto 0 auto;
+}
+
+.submit:hover{
+    box-shadow: 1px 1px 3px 3px rgba(128, 69, 69, 0.22);
+    color: #c4c4c4;
+}
+
+.submit:active{
+    background: #a11d1d;
+}

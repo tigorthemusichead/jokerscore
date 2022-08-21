@@ -1,0 +1,69 @@
+.card{
+    background: #ffffff;
+    width: 60px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 4px 4px;
+    position: relative;
+}
+
+.cardWrapper{
+    transform: rotate(35deg);
+    position: fixed;
+    right: -20px;
+    top: -20px;
+    transition: all 1s;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+
+.icon{
+    font-size: 10px;
+    width: 12px;
+    height: 12px;
+    border: solid 1px #941313;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 10px;
+    color: #941313;
+}
+
+.iconBlack{
+    font-size: 10px;
+    width: 12px;
+    height: 12px;
+    border: solid 1px #000000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 10px;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    color: #000000;
+}
+
+.textTop{
+    font-size: 16px;
+    line-height: 11px;
+    color: #000000;
+}
+
+.textBottom{
+    font-size: 16px;
+    line-height: 11px;
+    position: absolute;
+    bottom: 3px;
+    color: #941313;
+}
+
+.textWrapper{
+    height: 7px;
+    overflow: hidden;
+    position: relative;
+}
+
+.joker{
+    transform: rotate(305deg);
+    margin-top: 26px;
+    margin-left: 3px;
+}
